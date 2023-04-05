@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="heading">Add Images /Icons</h2>
+    </div>
+
+    <div class="container">
+      <div class="frame" id="frame">
+        <!-- <img src="img.jpg" /> -->
+        <div class="img-area" data-img="">
+          <i class="bx bxs-cloud-upload icon"></i>
+        </div>
+      </div>
+      <div class="container-img">
+        <input type="file" id="file" accept="image/*" hidden />
+
+        <button class="select-image">Select Image</button>
+      </div>
+
+      <div class="button-container">
+        <button class="btn" id="btn-original">original</button>
+        <button class="btn" id="btn-rectangle">angle</button>
+        <button class="btn" id="btn-circle">flower</button>
+        <button class="btn" id="btn-heart">heart</button>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
